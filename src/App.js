@@ -8,7 +8,7 @@ import Detail from "./components/Detail";
 function App() {
   return (
     <div className="App">
-      <Router basename="/Disney-Clone">
+      <Router>
         <Header />
         <Switch>
           <Route exact path="/">
