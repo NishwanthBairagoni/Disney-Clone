@@ -2,6 +2,7 @@
   "name": "youtube-disney-clone",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://nishwanthbairagoni.github.io/Disney-Clone",
   "dependencies": {
     "@reduxjs/toolkit": "^1.5.1",
     "@testing-library/jest-dom": "^5.11.4",
@@ -20,9 +21,9 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts --openssl-legacy-provider test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -42,5 +43,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "postcss": "^8.4.21",
+    "postcss-safe-parser": "^5.0.2"
   }
 }
